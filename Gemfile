@@ -20,6 +20,14 @@ gem "wicked_pdf", "~> 2.1"
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
+  gem "bcrypt_pbkdf", "~> 1.1"
+  gem "capistrano", "~> 3.17", require: false
+  gem "capistrano-bundler", "~> 2.1"
+  gem "capistrano-passenger", "~> 0.2.1"
+  gem "capistrano-rails", "~> 1.6"
+  gem "capistrano-rbenv", "~> 2.2"
+  gem "ed25519", "~> 1.3"
+
   gem "brakeman", "~> 5.4"
   gem "decidim-dev", "0.28.0"
   gem "net-imap", "~> 0.2.3"
