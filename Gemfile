@@ -18,9 +18,9 @@ gem "puma", ">= 6.3.1"
 gem "wicked_pdf", "~> 2.1"
 
 # Woraround for
-# > You have already activated strscan 3.0.1, but your Gemfile requires strscan 3.0.3
+# > You have already activated strscan 3.x.y, but your Gemfile requires strscan 3.a.b
 # @see https://stackoverflow.com/a/73720747
-gem "strscan", "3.0.1"
+gem "strscan", "3.1.0"
 
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
