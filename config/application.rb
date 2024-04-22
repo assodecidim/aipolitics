@@ -17,6 +17,10 @@ module AIPolitics
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 
+    # Use the secret_key_base defined in the config/secrets.yml file
+    # This is needed to ignore the Rails Credentials API
+    config.secret_key_base = Rails.application.secrets.secret_key_base
+
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
