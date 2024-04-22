@@ -813,8 +813,6 @@ DEPENDENCIES
   puma (>= 6.3.1)
   spring (~> 2.0)
   spring-watcher-listen (~> 2.0)
-  stringio (= 3.0.1)
-  strscan (= 3.0.1)
   web-console (~> 4.2)
   wicked_pdf (~> 2.1)
 
