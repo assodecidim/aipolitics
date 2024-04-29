@@ -13,6 +13,8 @@ gem "decidim", "0.28.0"
 
 gem "bootsnap", "~> 1.3"
 gem "puma", ">= 6.3.1"
+gem "sentry-rails", "~> 5.17"
+gem "sentry-ruby", "~> 5.17"
 gem "sidekiq", "~> 7.2"
 gem "wicked_pdf", "~> 2.1"
 
