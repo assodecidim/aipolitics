@@ -4,12 +4,14 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-gem "decidim", "0.28.0"
-# gem "decidim-conferences", "0.28.0"
-# gem "decidim-design", "0.28.0"
-# gem "decidim-elections", "0.28.0"
-# gem "decidim-initiatives", "0.28.0"
-# gem "decidim-templates", "0.28.0"
+DECIDIM_VERSION = "0.28.0".freeze
+
+gem "decidim", DECIDIM_VERSION
+# gem "decidim-conferences", DECIDIM_VERSION
+# gem "decidim-design", DECIDIM_VERSION
+# gem "decidim-elections", DECIDIM_VERSION
+# gem "decidim-initiatives", DECIDIM_VERSION
+# gem "decidim-templates", DECIDIM_VERSION
 
 gem "bootsnap", "~> 1.3"
 gem "puma", ">= 6.3.1"
@@ -30,7 +32,7 @@ group :development, :test do
   gem "ed25519", "~> 1.3"
 
   gem "brakeman", "~> 5.4"
-  gem "decidim-dev", "0.28.0"
+  gem "decidim-dev", DECIDIM_VERSION
 end
 
 group :development do
