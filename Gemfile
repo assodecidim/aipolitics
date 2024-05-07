@@ -7,7 +7,7 @@ ruby RUBY_VERSION
 DECIDIM_VERSION = "0.28.1".freeze
 
 gem "decidim", DECIDIM_VERSION
-# gem "decidim-conferences", DECIDIM_VERSION
+gem "decidim-conferences", DECIDIM_VERSION
 # gem "decidim-design", DECIDIM_VERSION
 # gem "decidim-elections", DECIDIM_VERSION
 # gem "decidim-initiatives", DECIDIM_VERSION
