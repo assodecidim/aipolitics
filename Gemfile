@@ -13,14 +13,6 @@ gem "decidim-conferences", DECIDIM_VERSION
 # gem "decidim-initiatives", DECIDIM_VERSION
 # gem "decidim-templates", DECIDIM_VERSION
 
-# Workaround for Passenger error:
-#
-# > The application encountered the following error: You have already activated base64 0.1.1,
-# > but your Gemfile requires base64 0.2.0. Since base64 is a default gem, you can either remove
-# > your dependency on it or try updating to a newer version of bundler that supports base64 as
-# > a default gem.
-gem "base64", "0.1.1"
-
 gem "bootsnap", "~> 1.3"
 gem "puma", ">= 6.3.1"
 gem "sentry-rails", "~> 5.17"
